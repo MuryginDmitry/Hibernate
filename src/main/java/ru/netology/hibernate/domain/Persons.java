@@ -4,9 +4,7 @@ import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import lombok.*;
 
-@ToString
-@Getter
-@Setter
+@Data
 @Builder
 @Entity
 @NoArgsConstructor
